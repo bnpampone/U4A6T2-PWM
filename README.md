@@ -1,2 +1,3 @@
-# U4A6T2-PWM
-Tarefa PWM - Breno Marcelo Pamponé
+# Controle de Servo Motor e LED com Raspberry Pi Pico
+
+Este projeto tem o objetivo de controlar o movimento de um servo motor com a Raspberry Pi Pico, fazendo com que ele se mova suavemente entre 0° e 180°. Um LED foi adicionado para indicar a posição do servo, acendendo conforme o servo vai até 180° e apagando ao retornar para 0°. O código começa configurando o PWM para controlar tanto o servo quanto o LED. O servo faz três movimentos iniciais: 180°, 90° e 0°. Depois, entra em um loop onde o movimento vai de 0° a 180° e volta, com pequenos ajustes de 5µs e um atraso de 10ms para garantir um movimento fluido. O LED acompanha o movimento do servo, acendendo gradualmente até 180° e apagando quando ele retorna para 0°. Os testes foram registrados em vídeo, mostrando o funcionamento do código com o servo e o LED. A implementação está funcionando bem, com a transição entre os componentes bem sincronizada. Confira o vídeo com a explicação e os resultados: https://youtu.be/VSaPKJis_BY
